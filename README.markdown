@@ -1,5 +1,16 @@
 # State Machine
 
+A node implementation of a [Finite State Machine](http://en.wikipedia.org/wiki/Finite-state_machine)
+
+The set of input symbols and states is implicit. Only the following is require to create a StateMachine:
+
+* start state
+* accepting states
+* transition table
+
+
+## Example
+
     var StateMachine = require('state_machine');
 
     var sm = new StateMachine({
