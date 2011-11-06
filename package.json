@@ -1,0 +1,22 @@
+{
+  "author": "Sam Taylor <sjltaylor@gmail.com>",
+  "name": "state_machine",
+  "description": "State Machine (Deterministic Finite Automata)",
+  "version": "0.1.0",
+  "homepage": "http://github.com/sjltaylor/state_machine",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sjltaylor/state_machine.git"
+  },
+  "main": "state_machine.js",
+  "engines": {
+    "node": "~0.6.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vows": ">= 0.5.12"
+  },
+  "scripts": {
+    "test": "vows `find test -name *.vows.js` --spec"
+  }
+}
